@@ -1,7 +1,9 @@
 mod app;
+mod page;
+mod calc;
 
-use app::App;
+use app::Model;
 
 fn main() {
-    yew::start_app::<App>();
+    yew::start_app::<Model>();
 }

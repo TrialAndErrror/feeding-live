@@ -1,7 +1,7 @@
 const TBSP_MLS: u16 = 15;
 const TSP_MLS: u16 = 5;
 
-#[derive(Debug)]
+#[derive(Debug, PartialEq, Clone)]
 pub struct Result {
     pub tablespoons: u16,
     pub teaspoons: u16,

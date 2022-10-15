@@ -8,9 +8,9 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-
-  background: linear-gradient(to bottom right, #444444, #009a5b);
+  background-image: radial-gradient( circle farthest-corner at 0.2% 0%,  rgba(238,9,121,1) 0%, rgba(255,106,0,1) 100.2% );
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 main {
