@@ -1,13 +1,7 @@
+use super::result::Result;
+
 const TBSP_MLS: u16 = 15;
 const TSP_MLS: u16 = 5;
-
-#[derive(Debug, PartialEq, Clone)]
-pub struct Result {
-    pub tablespoons: u16,
-    pub teaspoons: u16,
-    pub leftovers: f32,
-    pub scoop_portions: f32,
-}
 
 pub fn convert_ml_to_tbsp(num_ml: u16) -> Result {
     let initial_powder_calculation = (f32::from(num_ml) * 50.0) / 120.0;

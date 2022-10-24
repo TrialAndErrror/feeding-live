@@ -2,7 +2,8 @@ use yew::prelude::*;
 use crate::page::signals::Msg;
 use crate::page::views::{render_some_ml, render_0_ml};
 
-use crate::calc::convert_units::{convert_ml_to_tbsp, Result};
+use crate::calc::convert_units::convert_ml_to_tbsp;
+use crate::calc::result::Result;
 
 pub struct Model {
     total_ml: u16,

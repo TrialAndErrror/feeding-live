@@ -1,5 +1,5 @@
 use yew::prelude::*;
-use crate::calc::convert_units::Result;
+use crate::calc::result::Result;
 
 #[derive(Clone, PartialEq, Properties)]
 pub struct Props {

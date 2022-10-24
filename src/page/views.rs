@@ -1,5 +1,5 @@
 use yew::{html, Callback, MouseEvent, Html};
-use crate::calc::convert_units::Result;
+use crate::calc::result::Result;
 
 use super::components::text_input_block::TextInputBlock;
 use super::components::results_div::ResultsDiv;
