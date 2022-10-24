@@ -1,3 +1,3 @@
-pub mod html_input;
-pub mod results_panel;
+pub mod components;
 pub mod signals;
+pub mod views;
